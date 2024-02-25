@@ -1,0 +1,70 @@
+{
+    "utbildningar": [
+        {
+            "id": 1,
+            "skola": "Glada Hudik Gymnasiet",
+            "utbildning": "Grafisk Design",
+            "start": 2011,
+            "klar": 2014,
+            "om": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eaque rem! Beatae dicta sed id vel placeat voluptates."
+        },
+        {
+            "id": 2,
+            "skola": "Glada Hudik Gymnasiet",
+            "utbildning": "Ledarskap",
+            "start": 2011,
+            "klar": 2014,
+            "om": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eaque rem! Beatae dicta sed id vel placeat voluptates."
+        },
+        {
+            "id": 3,
+            "skola": "Hundens Hus",
+            "utbildning": "Hundinstruktör",
+            "start": 2021,
+            "klar": 2022,
+            "om": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eaque rem! Beatae dicta sed id vel placeat voluptates."
+        },
+        { 
+            "id": 4,
+            "skola": "Edugrade",
+            "utbildning": "Systemutvecklare",
+            "start": 2023,
+            "klar": 2025,
+            "om": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eaque rem! Beatae dicta sed id vel placeat voluptates."
+        }   
+    ],
+    "arbeten": [
+        {
+            "id": 101,
+            "företag": "Hudiksvalls Sjukhus",
+            "titel": "Kanslist Medicin-mottagningen",
+            "från": "20??",
+            "till": "20??",
+            "arbetsbeskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eaque rem! Beatae dicta sed id vel placeat voluptates."
+        },
+        {
+            "id": 102,
+            "företag": "Hudiksvalls Sjukhus",
+            "titel": "Vårdbiträde Diaysen",
+            "från": "20??",
+            "till": "20??",
+            "arbetsbeskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eaque rem! Beatae dicta sed id vel placeat voluptates."
+        },
+        {
+            "id": 103,
+            "företag": "Hudiksvalls Sjukhus",
+            "titel": "Vårdbiträde Medicin-mottagningen",
+            "från": "20??",
+            "till": "20??",
+            "arbetsbeskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eaque rem! Beatae dicta sed id vel placeat voluptates."
+        },
+        {
+            "id": 104,
+            "företag": "Hudiksvalls Sjukhus",
+            "titel": "Kanslist Medicin-avd 7",
+            "från": "20??",
+            "till": "20??",
+            "arbetsbeskrivning": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eaque rem! Beatae dicta sed id vel placeat voluptates."
+        }
+    ]
+}

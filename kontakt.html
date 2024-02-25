@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <link rel="stylesheet" type="text/css" href="css/kontakt.css">
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <div>
+                <a href="index.html">
+                <img src="/bilder/Loggastor.svg" alt="Logga" style="height:50px;"></a>
+            </div>
+              <input id="menu-toggle" type="checkbox" />
+              <label class='menu-button-container' for="menu-toggle">
+              <div class='menu-button'></div>
+            </label>
+              <ul class="menu">
+                <li><a href="om.html">OM</a></li>
+                <li><a href="projekt.html">PORTFOLIO</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a class="active" href="kontakt.html">KONTAKT</a></li>
+              </ul>
+           
+        </nav>
+    </header>
+    <main>
+        <div class="kontaktamig">
+            
+                <h2 class="kontakttext">Kontakta mig</h2>
+            
+            <div class="row">
+                <div class="column">
+                    <div style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:500px;">
+                        <div id="embed-ded-map-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Hudiksvall,+Sverige&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="my-codefor-googlemap" rel="nofollow" href="https://www.https://google.com/maps/place/Hudiksvall,+Sverige/@61.739074,17.119571,12z/data=!4m6!3m5!1s0x46641de634de584d:0x4034506de8c83a0!8m2!3d61.7273909!4d17.107401!16s%2Fm%2F02p3hs2?hl=sv-SE&entry=ttu" id="authmaps-data">https://www.embed-map.com</a>
+                        <style>#embed-ded-map-canvas .text-marker.map-generator{max-width: 100%; max-height: 100%; background: none;}
+                        </style>
+                    </div>
+                </div>
+                <div class="column">
+                    <form action="Submit_form" method="post" class="kontakt">
+                        
+                        <label for="fname">Förnamn</label> <br>
+                        <input type="text" id="fname" name="fname"><br>
+
+                        <label for="lname">Efternamn</label> <br>
+                        <input type="text" id="lname" name="lname"><br>
+
+                        <label for="email">Epost</label> <br>
+                        <input type="email" id="email" name="email"><br>
+
+                        <label for="phone">Telefon</label> <br>
+                        <input type="text" id="phone" name="phone"><br>
+
+                        <label for="message">Skicka ett meddelande</label> <br>
+                        <textarea id="message" name="message"></textarea><br><br>
+
+                        <input type="submit" value="Skicka">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 - Johanna Marklund</p>
+    </footer>
+</body>
+</html>

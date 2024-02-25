@@ -1,0 +1,38 @@
+
+.startcontainer{
+    height: 100vh;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-image: url('/bilder/bakgrundstart.svg.png');
+    background-size: cover;
+    
+}
+
+.start{
+    text-align: center;
+    flex-basis: auto;
+    flex-shrink: 3;
+    color:whitesmoke;
+    font-size:x-large ;
+  
+}
+.mylogo{
+   
+    flex-shrink: 2;
+    flex-basis: auto;
+}
+
+@media screen and (max-width:500px) {
+    .start {
+       font-size:smaller;   
+    }
+    .startcontainer {
+        height:80vh;
+    }
+}

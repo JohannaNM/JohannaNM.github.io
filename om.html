@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om</title>
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <link rel="stylesheet" type="text/css" href="css/om.css">
+    <link rel="stylesheet" type="text/css" href="css/konami.css">
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <div>
+                <a href="index.html">
+                    <img src="/bilder/Loggastor.svg" alt="Logga" style="height:50px;"></a>
+            </div>
+              <input id="menu-toggle" type="checkbox" />
+              <label class='menu-button-container' for="menu-toggle">
+              <div class='menu-button'></div>
+            </label>
+              <ul class="menu">
+                <li><a class="active" href="om.html">OM</a></li>
+                <li><a href="projekt.html">PORTFOLIO</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="kontakt.html">KONTAKT</a></li>
+              </ul>
+        </nav> 
+    </header>
+    <div class="aboutcontainer">
+        <aside>
+            <section class="allmänt">
+                <img src="bilder/profilbild.jpg" alt="profilbild">
+                <h3></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ab esse recusandae beatae tenetur fugiat obcaecati culpa? Tenetur minima cum, 
+                amet sunt rerum, numquam magnam aut sed blanditiis, voluptas illo explicabo.</p>
+            </section>
+            <section class="intressen">
+                <h2 class="rubrik">Intressen</h2>
+                <ul>
+                    <li>
+                        <div class="icon">
+                            <i class="fa-solid fa-dog"></i>
+                        </div>
+                        <div class="info">
+                            <p>Hundar / hundträning</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+                        <div class="info">
+                            <p>Skapa/ designa</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                        <div class="info">
+                            <p>Inredning</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="info">
+                            <p>Tatueringar</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fa-solid fa-plane"></i>
+                        </div>
+                        <div class="info">
+                            <p>Resa</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fa-solid fa-hands-holding-child"></i>
+                        </div>
+                        <div class="info">
+                            <p>Mysa med familjen</p>
+                        </div>
+                    </li>
+                </ul>
+
+            </section>
+        </aside>
+        <main id="backgroundchange">
+            <section class="ommig">
+                <h3>Om mig</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Vero ullam amet ea tenetur voluptatem distinctio obcaecati expedita et. 
+                Quibusdam consequuntur dolor impedit tenetur velit quas esse rerum porro totam atque?</p>
+            </section> 
+            <section class="minfamilj">
+                <h3>Min familj</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Vero ullam amet ea tenetur voluptatem distinctio obcaecati expedita et. 
+                    Quibusdam consequuntur dolor impedit tenetur velit quas esse rerum porro totam atque?</p>
+                <!--<img class="Akira" src="bilder/Akira1.jpg" alt="Irish/American Staffortshire Terrier">
+                <img src="bilder/Nahla.jpg" alt="Irish Staffordshire Terrier">
+                <img src="bilder/bådahundarna1.jpg" alt=>-->
+
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 4</div>
+                        <img src="bilder/Nahla.jpg" alt="Irish Staffordshire Terrier">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 4</div>
+                        <img src="bilder/Akira1.jpg" alt="Irish/American Staffortshire Terrier">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 4</div>
+                        <img src="bilder/bådahundarna1.jpg" alt="två hundar">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 4</div>
+                        <img src="bilder/Snapchat-73327579.jpg" alt="min son som spelar guitarr">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+
+                <div class="dotts">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+
+            </section>  
+            <div id="myModal" class="modal">
+                <div class="secret-modal">
+                    <span class="close">&times;</span>
+                    <h2>Tittut!</h2>
+                    <video id="myVideo" controls>
+                        <source src="Snapchat-781217951.mp4" type="video/mp4">
+                        Your browser does not support the video tag
+                    </video>
+                    <p>Du hittade mig</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <p onclick="document.getElementById('backgroundchange').style.background='#c8e9f4'">&copy; 2024 - Johanna Marklund</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/b06d476938.js" crossorigin="anonymous"></script>
+    <script src="js/konami.js"></script>
+    <script src="js/slideshow.js"></script>
+   
+</body>
+</html>
